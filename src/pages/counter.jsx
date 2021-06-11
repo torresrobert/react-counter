@@ -23,13 +23,6 @@ export default function Counter() {
     <>
       <Card className={classes.root}>
         <CardActionArea>
-          <CardMedia
-            component="img"
-            alt="Contemplative Reptile"
-            height="140"
-            image="/static/images/cards/contemplative-reptile.jpg"
-            title="Contemplative Reptile"
-          />
           <CardContent>
             <Typography variant="h1" color="textSecondary" component="p">
               {count}
